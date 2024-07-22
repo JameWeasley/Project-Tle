@@ -27,6 +27,7 @@ nav {
 .menu {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 .menu li {
@@ -118,3 +119,50 @@ nav {
 }
 
 /* End Slide */
+
+.btn-log {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: .5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-log:hover {
+    color: #333;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.form-label h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 50%;
+
+    label {
+        margin: .5rem 0;
+    }
+
+    input {
+        border: 1px solid #333;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    input[type="submit"] {
+        width: 100px;
+        margin-top: 1rem;
+        align-self: end;
+    }
+}
